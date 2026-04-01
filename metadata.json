@@ -1,0 +1,7 @@
+{
+  "name": "Dar Luxury - Immobilier d'Exception au Maroc",
+  "description": "Une expérience digitale immersive pour trouver votre futur foyer ou investissement au Maroc. Luxe, modernité et accompagnement personnalisé.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
