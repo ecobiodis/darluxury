@@ -129,7 +129,7 @@ const Navbar = () => {
 
 const Hero = () => {
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-24 z-10">
       {/* Video Background Placeholder (using image for demo stability) */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-black/60 z-10" />
@@ -141,7 +141,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="relative z-20 text-center px-6 max-w-4xl">
+      <div className="relative z-30 text-center px-6 max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -150,7 +150,7 @@ const Hero = () => {
           <span className="inline-block glass px-4 py-1 rounded-full text-xs font-display uppercase tracking-[0.3em] text-gold mb-6">
             L'excellence immobilière au Maroc
           </span>
-          <h1 className="font-serif text-5xl md:text-8xl mb-8 leading-tight">
+          <h1 className="font-serif text-5xl lg:text-8xl mb-8 leading-tight">
             Et si votre prochaine maison <br />
             <span className="italic text-gradient-gold">changeait votre vie ?</span>
           </h1>
